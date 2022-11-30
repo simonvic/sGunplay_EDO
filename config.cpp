@@ -41,14 +41,375 @@ class CfgPatches {
 			"BO_Tango6",
 			"BO_VortexRazor",
 			"BO_Vudu",
-			"BO_AccuPowerOptic"
+			"BO_AccuPowerOptic",
+
+			"BO_M134",
+			"BO_M240B",
+			"BO_M249",
+			"BO_MG42",
+			"BO_PKM",
+			"BO_U100",
+			"BO_M60",
+
+			"BO_GlockPDW",
+			"BO_Tec9",
+			"BO_ACR",
+			"BO_AK74",
+			"BO_AKM",
+			"BO_AKS74U",
+			"BO_AN94",
+			"BO_AR15",
+			"BO_ARX160",
+			"BO_MK18",
+			"BO_FedorovAvtomat",
+			"BO_FG42",
+			"BO_FG42M",
+			"BO_FNFAL",
+			"BO_G3A3",
+			"BO_G36",
+			"BlackoutRifles_GROZA",
+			"BO_HK416",
+			"BO_HKG28",
+			"BO_HoneyBadger",
+			"BO_M1A",
+			"BO_M4",
+			"BO_M16A4",
+			"BO_M1981",
+			"BO_MDR",
+			"BO_Mk14",
+			"BO_RPK16",
+			"BO_SCARH",
+			"BO_Sig552",
+			"BO_Stoner63A",
+			"BO_TAR21",
+			"BO_TheFix",
+			"BlackoutRifles_TKB0146",
+			"BO_AK5C"
+			
 		};
 	};
 };
 
 class cfgWeapons {
 	class Rifle_Base;
-	
+	class BO_M60_Base : Rifle_Base {
+		s_recoilControlMisalignmentX = 0.20;
+		s_recoilControlMisalignmentY = 0.20;
+		s_recoilControlKick = 0.25;
+	};
+	class BO_M134_Base : Rifle_Base {
+		s_recoilControlMisalignmentX = 0.20;
+		s_recoilControlMisalignmentY = 0.75;
+	};
+	class BO_M240B_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.50;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlKick = 0.25;
+	};
+	class M4A1;
+	class BO_M249Para_Base : M4A1 {
+		s_recoilControlStabilityX = 0.50;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlKick = 0.25;
+	};
+	class BO_MG42_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.50;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlKick = 0.25;
+	};
+	class BO_PKM_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.50;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlKick = 0.25;
+	};
+	class BO_U100_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.50;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.50;
+		s_recoilControlKick = 0.25;
+	};
+	class BO_GlockPDW_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.75;
+	};
+	class BO_Tec9_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.25;
+		s_recoilControlStabilityY = 0.25;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_ACR_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_ACR_9mm_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_AK5C_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_AK5C_9mm_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_AK74_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_AKM_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_AKS74U_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
+	class BO_AN94_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_AR15_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_ARX160_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_MK18_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
+	class BO_MK18_9mm_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.20;
+		s_recoilControlStabilityY = 0.20;
+		s_recoilControlMisalignmentX = 0.55;
+		s_recoilControlMisalignmentY = 0.50;
+	};
+	class BO_Famas_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.65;
+		s_recoilControlStabilityY = 0.65;
+		s_recoilControlMisalignmentX = 0.75;
+		s_recoilControlMisalignmentY = 0.80;
+		s_recoilControlKick = 0.75;
+	};
+	class BO_FedorovAvtomat_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_FG42_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_FG42M_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_FNFAL_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_G3A3_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_G36_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_Groza_762_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_HK416_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_HKG28_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_HoneyBadger_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_M1A_Base : Rifle_Base {
+		s_recoilControlKick = 0.70;
+	};
+	class BO_M4_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_M16A4_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_M1918_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_MDR_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_MDR_9mm_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_Mk14_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_RPK16_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_SCARL_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_SCARH_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_SCAR_9mm_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_Sig552_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_Stoner63A_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_TAR21_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_TKB0146_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
 };
 
 class cfgVehicles {
@@ -57,6 +418,14 @@ class cfgVehicles {
 	class HuntingOptic;
 	class BO_AccuPowerOptic : ItemOptics_Base {
 		s_pipRadius = 0.24;
+		s_pipMagnification = 0.314;
+		s_pipBlur = 0.01;
+		s_pipChromAber = 0.3;
+	};
+	class BO_TheFix_Optic : ItemOptics_Base {
+		s_isFullscreen = 1;
+		s_showEnterMisalignment = 1;
+		s_pipRadius = 1;
 		s_pipMagnification = 0.314;
 		s_pipBlur = 0.01;
 		s_pipChromAber = 0.3;
