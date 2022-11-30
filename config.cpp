@@ -84,6 +84,9 @@ class CfgPatches {
 			"BO_TAR21",
 			"BO_TheFix",
 			"BlackoutRifles_TKB0146",
+			"BO_AA12",
+			"BO_USAS12",
+			"BO_VR80",
 			"BO_AK5C"
 			
 		};
@@ -92,6 +95,27 @@ class CfgPatches {
 
 class cfgWeapons {
 	class Rifle_Base;
+	class BO_AA12_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_USAS12_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
+	class BO_VR80_Base : Rifle_Base {
+		s_recoilControlStabilityX = 0.70;
+		s_recoilControlStabilityY = 0.70;
+		s_recoilControlMisalignmentX = 0.50;
+		s_recoilControlMisalignmentY = 0.75;
+		s_recoilControlKick = 0.50;
+	};
 	class BO_M60_Base : Rifle_Base {
 		s_recoilControlMisalignmentX = 0.20;
 		s_recoilControlMisalignmentY = 0.20;
